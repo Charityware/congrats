@@ -1,5 +1,7 @@
 # Congrats
 
+[![NPM](https://nodei.co/npm/congrats.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/congrats/)
+
 > Get congratulatory phrases, straight to your computer, for FREE!
 
 ![congrats npm](http://i.giphy.com/WPJDGY9K5AVa0.gif)
