@@ -1,6 +1,6 @@
 'use strict';
-var words = require('./words.json');
+var phrases = require('./phrases.json');
 var uniqueRandomArray = require('unique-random-array');
 
-module.exports = uniqueRandomArray(words);
-module.exports.words = words;
+module.exports = uniqueRandomArray(phrases);
+module.exports.phrases = phrases;

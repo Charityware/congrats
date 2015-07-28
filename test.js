@@ -2,11 +2,11 @@
 var test = require('ava');
 var superb = require('./');
 
-test('returns a random superb word', function (t) {
+test('returns a random congrats phrase', function (t) {
 	t.assert(superb().length > 0);
 });
 
-test('returns all the words', function (t) {
-	t.assert(Array.isArray(superb.words));
-	t.assert(superb.words[3].length > 0);
+test('returns all the phrases', function (t) {
+	t.assert(Array.isArray(superb.phrases));
+	t.assert(superb.phrases[3].length > 0);
 });

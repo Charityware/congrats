@@ -1,10 +1,10 @@
 # superb [![Build Status](https://travis-ci.org/sindresorhus/superb.svg?branch=master)](https://travis-ci.org/sindresorhus/superb)
 
-> Get superb like words
+> Get superb like phrases
 
-Currently ~100 words.
+Currently ~100 phrases.
 
-The word list itself is just a [JSON file](words.json) and can be used wherever.
+The word list itself is just a [JSON file](phrases.json) and can be used wherever.
 
 
 ## Install
@@ -25,7 +25,7 @@ superb();
 superb();
 //=> awesome
 
-superb.words;
+superb.phrases;
 // ['superb', 'legendary', ...]
 ```
 
@@ -36,13 +36,13 @@ superb.words;
 
 Type: `string`
 
-Random [superb like word](words.json).
+Random [superb like word](phrases.json).
 
-### superb.words
+### superb.phrases
 
 Type: `array`
 
-All the words.
+All the phrases.
 
 
 ## CLI
@@ -64,7 +64,7 @@ $ superb --help
     ...
 
   Options
-    --all  Get all the words instead of a random word
+    --all  Get all the phrases instead of a random word
 ```
 
 
@@ -74,7 +74,7 @@ $ superb --help
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [superheroes](https://github.com/sindresorhus/superheroes) - Get superhero names
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
-- [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
+- [yes-no-phrases](https://github.com/sindresorhus/yes-no-phrases) - Get yes/no like phrases
 
 
 ## License

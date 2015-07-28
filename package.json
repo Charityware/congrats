@@ -1,17 +1,20 @@
 {
-  "name": "superb",
-  "version": "1.1.4",
-  "description": "Get superb like words",
+  "name": "congrats",
+  "version": "0.0.1",
+  "description": "Return congratulatory ",
   "license": "MIT",
-  "repository": "sindresorhus/superb",
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:Charityware/congrats.git"
+  },
   "bin": "cli.js",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Mark Thomas",
+    "email": "markthethomas@gmail.com",
+    "url": "https://charityware.github.io"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   },
   "scripts": {
     "test": "node test.js"
@@ -19,9 +22,9 @@
   "files": [
     "index.js",
     "cli.js",
-    "words.json"
+    ".json"
   ],
-  "keywords": [
+  "keyphrases": [
     "cli-app",
     "cli",
     "bin",
@@ -29,6 +32,9 @@
     "awesome",
     "word",
     "words",
+    "phrases",
+    "congrats",
+    "congratulations",
     "list",
     "array",
     "random",

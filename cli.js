@@ -6,17 +6,17 @@ var superb = require('./');
 var cli = meow({
 	help: [
 		'Examples',
-		'  $ superb',
-		'  legendary',
+		'  $ congrats',
+		'  great job',
 		'',
-		'  $ superb --all',
+		'  $ congrats --all',
 		'  ace',
 		'  amazing',
 		'  ...',
 		'',
 		'Options',
-		'  --all  Get all the words instead of a random word'
+		'  --all  Get all the phrases instead of a random phrase'
 	]
 });
 
-console.log(cli.flags.all ? superb.words.join('\n') : superb());
+console.log(cli.flags.all ? superb.phrases.join('\n') : superb());
