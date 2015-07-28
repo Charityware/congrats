@@ -1,44 +1,44 @@
-# superb [![Build Status](https://travis-ci.org/sindresorhus/superb.svg?branch=master)](https://travis-ci.org/sindresorhus/superb)
+# Congrats
 
-> Get superb like phrases
+> Get congratulatory phrases, straight to your computer, for FREE!
 
-Currently ~100 phrases.
+![congrats npm](http://i.giphy.com/WPJDGY9K5AVa0.gif)
 
-The word list itself is just a [JSON file](phrases.json) and can be used wherever.
+This is largely based on the [superb](https://www.npmjs.com/package/superb) library from the prolific @sindresorhus. The phrase list itself is just a [JSON file](phrases.json) and can be used wherever you'd like (via cli or in your app). There are currently ~50 phrases. Create a PR and add some more!
 
 
 ## Install
 
 ```
-$ npm install --save superb
+$ npm install --save congrats
 ```
 
 
 ## Usage
 
 ```js
-var superb = require('superb');
+var congrats = require('congrats');
 
-superb();
-//=> legendary
+congrats();
+//=> you did it
 
-superb();
-//=> awesome
+congrats();
+//=> great job
 
-superb.phrases;
-// ['superb', 'legendary', ...]
+congrats.phrases;
+// ['congrats', 'well done', ...]
 ```
 
 
 ## API
 
-### superb()
+### congrats()
 
 Type: `string`
 
-Random [superb like word](phrases.json).
+Random [congratulatory phrases](phrases.json).
 
-### superb.phrases
+### congrats.phrases
 
 Type: `array`
 
@@ -48,17 +48,17 @@ All the phrases.
 ## CLI
 
 ```
-$ npm install --global superb
+$ npm install --global congrats
 ```
 
 ```
-$ superb --help
+$ congrats --help
 
   Examples
-    $ superb
+    $ congrats
     legendary
 
-    $ superb --all
+    $ congrats --all
     ace
     amazing
     ...
@@ -68,9 +68,9 @@ $ superb --help
 ```
 
 
-## Related
+## Related Modules
 
-- [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
+- [cat-names](https://github.com/sindresorhus/superb) - Get popular cat names
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [superheroes](https://github.com/sindresorhus/superheroes) - Get superhero names
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
@@ -79,4 +79,4 @@ $ superb --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Mark Thomas](https://charityware.github.io)

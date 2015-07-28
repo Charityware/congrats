@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 var meow = require('meow');
-var superb = require('./');
+var congrats = require('./');
 
 var cli = meow({
 	help: [
@@ -10,8 +10,8 @@ var cli = meow({
 		'  great job',
 		'',
 		'  $ congrats --all',
-		'  ace',
-		'  amazing',
+		'  great job',
+		'  kudos',
 		'  ...',
 		'',
 		'Options',
@@ -19,4 +19,4 @@ var cli = meow({
 	]
 });
 
-console.log(cli.flags.all ? superb.phrases.join('\n') : superb());
+console.log(cli.flags.all ? congrats.phrases.join('\n') : congrats());

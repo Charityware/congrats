@@ -1,7 +1,7 @@
 {
   "name": "congrats",
   "version": "0.0.1",
-  "description": "Return congratulatory ",
+  "description": "Get congratulatory phrases",
   "license": "MIT",
   "repository": {
   "type": "git",
